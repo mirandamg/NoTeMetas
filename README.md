@@ -1,2 +1,2 @@
-# notemetas
+# NoTeMetas
 Tigre Hack 2023
