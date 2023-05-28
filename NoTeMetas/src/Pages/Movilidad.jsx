@@ -1,5 +1,5 @@
 import '../styles/Movilidad.css'
-import NavBar from '../components/NavBar'
+import NavBar from '../components/navBar'
 
 function Movilidad(){
 

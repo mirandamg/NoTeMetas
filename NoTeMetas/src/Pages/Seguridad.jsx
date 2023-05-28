@@ -1,5 +1,5 @@
 import '../styles/Seguridad.css'
-import NavBar from '../components/NavBar'
+import NavBar from '../components/navBar'
 
 function Seguridad(){
 

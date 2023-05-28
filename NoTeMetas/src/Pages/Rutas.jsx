@@ -1,5 +1,5 @@
 import '../styles/Rutas.css'
-import NavBar from '../components/NavBar'
+import NavBar from '../components/navBar'
 
 function Rutas(){
 

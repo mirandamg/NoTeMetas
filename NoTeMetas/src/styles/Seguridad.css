@@ -1,0 +1,29 @@
+.informacion-container {
+  text-align: center;
+  padding-top: 40px;
+}
+
+.informacion-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.informacion-columns {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 50px;
+  margin-top: 40px;
+}
+
+.informacion-column {
+  flex-basis: 30%;
+  margin-bottom: 40px;
+}
+
+.informacion-column h2 {
+  font-size: 20px;
+}
+
+.informacion-column p {
+  font-size: 16px;
+}
