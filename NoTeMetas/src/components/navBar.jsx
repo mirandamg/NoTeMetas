@@ -1,33 +1,42 @@
-import logo from "../../Media/logo.png"
-import '../styles/Navbar.scss'
+import logo from "../Media/logo.png"
+import { FaSistrix } from "react-icons/fa";
+import { FaInfo } from "react-icons/fa";
+import {FaRegMap} from "react-icons/fa";
+import { FaTaxi } from "react-icons/fa";
+import {FaExclamationTriangle} from "react-icons/fa";
+import '../styles/Navbar.css'
 
-import { useNavigate } from "react-router-dom";
-
-function Navbar(){
-    const navigate = useNavigate();
-
-
+function NavBar(){
     return (
         <>
             <nav>
-                <a href="/inicio">
-                    <img
-                        src={logo}
-                        width="155px"
-                        height="105px"
-                        id="deersign-logo"
-                        alt="logo deer sign"
-                    />
-                </a>
+      <div className="brand">
+      <img
+              src={logo}
+              width="30"
+              height="30"
+              className="d-inline-block align-top"
+              alt="React Bootstrap logo"
+            />
+      </div>
+      <div className="navigation">
+        <ul className="menu">
+          <li><a href="/informacion"><FaInfo/></a></li>
+          <li><a href="/movilidad"><FaTaxi/></a></li>
+          <li><a href="/rutas"><FaRegMap /></a></li>
+          <li><a href="/seguridad"><FaExclamationTriangle /></a></li>
+        </ul>
+        <div className="search">
+          <div className="search-content">
+            <button className="search-button"> <FaSistrix/></button>
+            <input type="text" className="search-input" placeholder="Search here..."></input>
+          </div>
+        </div>
+      </div>
+    </nav>
 
-                <div>
-                    <ul className="navbar">
-                        <li><input className="search" placeholder="Nombre Producto" /></li>
-                    </ul>
-                </div>
-            </nav>
         </>
     );
 }
 
-export default Navbar;
+export default NavBar;

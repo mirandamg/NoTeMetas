@@ -1,12 +1,11 @@
 import '../styles/Informacion.css'
+import NavBar from '../components/NavBar'
 
 
 function Informacion(){
 
     return(
-        <div>
-        <h1>Account</h1>
-    </div>
+        <NavBar />
     )
 }
 
