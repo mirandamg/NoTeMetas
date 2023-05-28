@@ -1,3 +1,4 @@
+import React from 'react';
 import '../styles/Informacion.css'
 import React from 'react';
 import NavBar from '../components/navBar'
@@ -42,8 +43,7 @@ function Informacion(){
             </div>
           </section>
     </div>
-    )
+  )
 }
 
 export default Informacion;
-
