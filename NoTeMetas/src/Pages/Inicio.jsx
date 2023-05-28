@@ -12,6 +12,7 @@ function Inicio(){
     <h1>Planea tu viaje</h1>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
     <p>Pellentesque non leo sed urna imperdiet accumsan. Sed neque augue, accumsan eget finibus sed, vestibulum in nulla.</p>
+    <br />
     <a href="/informacion" className="buttonL">Leer más</a>
 </div>
   
@@ -28,6 +29,7 @@ function Inicio(){
     <div className="column middleC">
     <h2>Inseguridad</h2>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerats.</p>
+    <br />
     <a href="/seguridad" className="buttonL">Leer más</a>
 
   </div>
@@ -38,6 +40,7 @@ function Inicio(){
     
     <h2>¿Como llegar?</h2>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat.</p>
+    <br />
     <a href="/rutas" className="buttonL">Leer más</a>
 
   </div>

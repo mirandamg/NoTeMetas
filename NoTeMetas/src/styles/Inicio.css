@@ -47,6 +47,7 @@ p{
 /* Left and right column */
 .column.side {
   width: 30%;
+  padding-left: 30px;
 }
 
 /* Middle column */
