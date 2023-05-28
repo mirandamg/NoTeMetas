@@ -1,48 +1,53 @@
-import React from 'react';
 import '../styles/Informacion.css'
-import React from 'react';
 import NavBar from '../components/navBar'
 
 
 function Informacion(){
     return(
-    <div className="container section-split">
-        <div className="header">
-            <h1 className="informacion-title">Información en Monterrey</h1>
-        </div>
-        
-        <NavBar />
-
-        <section id="inseguridad" className="section">
-            <div className="container">
-            <h2>Inseguridad en Monterrey</h2>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id lectus quis elit feugiat commodo sed vel diam. Sed suscipit purus a leo porta luctus. Fusce et tristique dolor, in varius mauris. Vivamus tristique, ipsum vitae consectetur aliquet, nunc turpis porta mauris, at ullamcorper nulla ex id est. Vestibulum porta ex auctor dui fermentum auctor. Fusce pretium, metus sed vulputate efficitur, urna ligula commodo nisi, in feugiat dui felis vel ante. Donec ut convallis enim, a finibus elit. Integer at ligula facilisis, vestibulum mi eget, ullamcorper dui. In sodales semper nibh sed vulputate. Fusce vestibulum odio at risus lobortis, sit amet venenatis orci interdum. Nunc nec aliquet dui.
-            </p>
-            <img src="https://cloudfront-us-east-1.images.arcpublishing.com/infobae/45AJYTDFPJBGDCJSCORSRLX7HM.jpg" alt="Imagen de inseguridad en Monterrey" />
-            </div>
-          </section>
-    
-          <section id="transporte" className="section">
-            <div className="container">
-            <h2>Transporte Público en Monterrey</h2>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id lectus quis elit feugiat commodo sed vel diam. Sed suscipit purus a leo porta luctus. Fusce et tristique dolor, in varius mauris. Vivamus tristique, ipsum vitae consectetur aliquet, nunc turpis porta mauris, at ullamcorper nulla ex id est. Vestibulum porta ex auctor dui fermentum auctor. Fusce pretium, metus sed vulputate efficitur, urna ligula commodo nisi, in feugiat dui felis vel ante. Donec ut convallis enim, a finibus elit. Integer at ligula facilisis, vestibulum mi eget, ullamcorper dui. In sodales semper nibh sed vulputate. Fusce vestibulum odio at risus lobortis, sit amet venenatis orci interdum. Nunc nec aliquet dui.
-            </p>
-            <img src="https://cloudfront-us-east-1.images.arcpublishing.com/infobae/45AJYTDFPJBGDCJSCORSRLX7HM.jpg" alt="Imagen de transporte público en Monterrey" />
-            </div>
-          </section>
-    
-          <section id="contaminacion" className="section">
-            <div className="container">
-            <h2>Impactos de la Contaminación</h2>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id lectus quis elit feugiat commodo sed vel diam. Sed suscipit purus a leo porta luctus. Fusce et tristique dolor, in varius mauris. Vivamus tristique, ipsum vitae consectetur aliquet, nunc turpis porta mauris, at ullamcorper nulla ex id est. Vestibulum porta ex auctor dui fermentum auctor. Fusce pretium, metus sed vulputate efficitur, urna ligula commodo nisi, in feugiat dui felis vel ante. Donec ut convallis enim, a finibus elit. Integer at ligula facilisis, vestibulum mi eget, ullamcorper dui. In sodales semper nibh sed vulputate. Fusce vestibulum odio at risus lobortis, sit amet venenatis orci interdum. Nunc nec aliquet dui.
-            </p>
-            <img src="https://cloudfront-us-east-1.images.arcpublishing.com/infobae/45AJYTDFPJBGDCJSCORSRLX7HM.jpg" alt="Imagen de impactos de la contaminación" />
-            </div>
-          </section>
+  <>
+  <NavBar />
+    <div className="header">
+      <h1>Información en Monterrey</h1>
     </div>
+    <div className="row">
+    <div className="rightcolumn">
+    <div className="card">
+      <h2>Movilidad</h2>
+      <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
+      <hr/>
+    </div>
+
+    <div className="card">
+      <img className="pequeñas" src="https://www.eleconomista.com.mx/__export/1623788711331/sites/eleconomista/img/2021/06/15/ruta-expres-nuevo-leon-cortesia-gob-nl.png_1902800913.png"/>
+      <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
+    </div>
+    </div>
+  <div className="leftcolumn">
+    <div className="card">
+      <div>
+        <img className='imgM' src="https://i0.wp.com/thehappening.com/wp-content/uploads/2016/05/monterrey1.jpg?fit=1024%2C694&ssl=1"/>
+      </div>
+    </div>
+  
+      <h2>Contaminación</h2>
+      <p>Some text..</p>
+      <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+  </div>
+  <div className="rightcolumn">
+    <div className="card">
+      <h2>Seguridad</h2>
+      <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
+      <hr/>
+    </div>
+
+    <div className="card">
+      <img className="pequeñas" src="https://cdn.milenio.com/uploads/media/2023/01/19/ruben-aguilar-torres-inspector-operacion.jpeg"/>
+      <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
+    </div>
+  </div>
+</div>
+
+  </>
   )
 }
 
