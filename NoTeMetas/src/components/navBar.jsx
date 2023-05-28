@@ -10,15 +10,7 @@ function NavBar(){
     return (
         <>
             <nav>
-      <div className="brand">
-      <img
-              src={logo}
-              width="30"
-              height="30"
-              className="d-inline-block align-top"
-              alt="React Bootstrap logo"
-            />
-      </div>
+      <div className="brand"><a href="/"><img src={logo} width="70" height="40"/> </a></div>
       <div className="navigation">
         <ul className="menu">
           <li><a href="/informacion"><FaInfo/></a></li>
