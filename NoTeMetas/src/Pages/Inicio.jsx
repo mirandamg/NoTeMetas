@@ -5,7 +5,6 @@ import NavBar from '../components/NavBar'
 function Inicio(){
     return(
         <>
-        
         <NavBar />
         <div className="rowM">
             <div className="column middle">

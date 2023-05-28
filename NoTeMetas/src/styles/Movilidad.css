@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,700;1,400&family=Poppins:wght@500&display=swap');
+
+h1{
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+}
+
+h2{
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+p{
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 400;
+  font-size: 10px;
+}
+/* Create two equal columns that floats next to each other */
+.column {
+    float: left;
+    margin-top: 40px;
+    width: 50%;
+    padding: 15px;
+}
+  
+  /* Clear floats after the columns */
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+  
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:600px) {
+    .column {
+      width: 100%;
+    }
+}
+#map {
+    height: 100%;
+  }
+  #floating-panel {
+    top: 10px;
+    left: 25%;
+    margin-top: 15%;
+    z-index: 5;
+    background-color: #fff;
+    border: 1px solid #999;
+    text-align: center;
+    font-family: "Roboto", "sans-serif";
+    line-height: 30px;
+  }
+    
